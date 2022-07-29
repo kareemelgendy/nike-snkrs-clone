@@ -1,0 +1,30 @@
+.button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+
+    &:hover {
+        background: #333333;
+    }
+
+    &:active {
+        background: #444444;
+    }
+
+    &__unavailable {
+        background: #DDDDDD;
+        color: white;
+        border: none;
+        padding: 15px 20px;
+        border-radius: 25px;
+        font-family: inherit;
+        font-weight: 600;
+        font-size: 16px;
+    }
+}
