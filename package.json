@@ -1,5 +1,20 @@
 {
-  "dependencies": {
-    "react-router": "^6.0.2"
-  }
+  "name": "nike-snkrs",
+  "version": "1.0.0",
+  "description": "Clone of the Nike SNKRS website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kareemelgendy/nike-snkrs.git"
+  },
+  "author": "Kareem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kareemelgendy/nike-snkrs/issues"
+  },
+  "homepage": "https://github.com/kareemelgendy/nike-snkrs#readme"
 }
